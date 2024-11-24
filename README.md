@@ -2,10 +2,10 @@
 
 ## Tools used
 - [Task](https://taskfile.dev)
-- [Redis]()
-- [Docker]()
-- [Flagsmith]()
-- [Golang]()
+- [Redis](https://redis.io/)
+- [Docker](https://www.docker.com/)
+- [Flagsmith](https://www.flagsmith.com/)
+- [Golang](https://go.dev/)
 
 ## Setup Steps
 
