@@ -6,6 +6,7 @@
 - [Docker](https://www.docker.com/)
 - [Flagsmith](https://www.flagsmith.com/)
 - [Golang](https://go.dev/)
+- [Gin](https://gin-gonic.com/)
 
 ## Setup Steps
 
