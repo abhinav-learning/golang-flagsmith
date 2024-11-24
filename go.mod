@@ -3,6 +3,7 @@ module flagsmith
 go 1.22.1
 
 require (
+	github.com/Flagsmith/flagsmith-go-client/v3 v3.7.0
 	github.com/gin-gonic/gin v1.10.0
 	github.com/go-redis/redis_rate/v10 v10.0.1
 	github.com/joho/godotenv v1.5.1
@@ -10,7 +11,6 @@ require (
 )
 
 require (
-	github.com/Flagsmith/flagsmith-go-client/v3 v3.7.0 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/bytedance/sonic v1.11.6 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
