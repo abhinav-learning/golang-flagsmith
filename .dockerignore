@@ -1,0 +1,72 @@
+# Version Control
+.git
+.gitignore
+.gitattributes
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Build outputs
+bin/
+dist/
+build/
+target/
+vendor/
+
+# Docker files
+Dockerfile
+docker-compose*.yml
+.docker/
+
+# Environment files
+.env
+.env.*
+*.env
+!.env.example
+
+# Documentation
+README.md
+docs/
+*.md
+
+# Development and test files
+*_test.go
+test/
+tests/
+testing/
+coverage.txt
+*.coverage
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Task runner
+Taskfile.yml
+.task/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Debug files
+debug/
+*.debug
+
+# Dependencies that will be downloaded during build

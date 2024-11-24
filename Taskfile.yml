@@ -13,3 +13,12 @@ tasks:
   down:
     cmds:
       - docker compose down
+  local:
+    cmds:
+      - go run .
+  db:
+    cmds:
+      - docker build -t flagsmith .
+  dr:
+    cmds:
+      - docker run -p 8080:8080 --env-file ./.env flagsmith
