@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  flagsmith-cache:
+    image: redis
+    container_name: flagsmith-cache-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - flagsmith-cache:/data
+
+volumes:
+  flagsmith-cache:
+    driver: local
+  
